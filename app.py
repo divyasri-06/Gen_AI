@@ -17,14 +17,9 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\t
 
 load_dotenv()
 
-# Initialize Generative AI with API Key
-# f = open("keys\gemini.txt")
-# key = f.read()
+
 # config your Gemini API key
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-# key = os.environ["Gemini_API_KEY"] 
-# genai.configure(api_key=key)
-
 
 # Streamlit Page Configuration
 
@@ -235,7 +230,7 @@ if uploaded_file:
 else:
     "No image uploaded yet"
 
-#st.sidebar.markdown("Powered by Google API")
+
 
 
 
