@@ -9,7 +9,6 @@ import google.generativeai as genai
 import numpy as np
 import torch
 from ultralytics import YOLO
-import matplotlib.pyplot as plt
 import cv2
 
 # Set Tesseract OCR path
