@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+python-dotenv
+pytesseract
+pyttsx3
+langchain_google_genai
+YOLO
+cv2
